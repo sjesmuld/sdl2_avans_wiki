@@ -10,7 +10,13 @@ Selecteer je c++ project in Solution Explorer en druk op **Alt+Enter**
 
 ![](https://i.imgur.com/n0CO9du.png)
 
-## Stap 4:
+## Stap 4: 
+
+![]https://i.imgur.com/mXb19x0.png)
+
+Zorg ervoor dat de configuration op All configurations staat en dat het platform op Active(x64) staat.
+
+## Stap 5:
 _VC++ Directories > Include Directories > Edit_
 
 ![](https://i.gyazo.com/7e8bc9f7589bee8406efb2c9d85dd3e2.png)
@@ -19,12 +25,12 @@ Voeg het volgende path **C:\sdl2\include** toe. Nu weet Visual Studio waar alle 
 
 ![](https://i.gyazo.com/0cd7912745a57471feca6eca48e73be8.png)
 
-## Stap 5:
+## Stap 6:
 _VC++ Directories > Library Directories > Edit_
 
 Voeg het volgende path **C:\sdl2\lib\x64** toe. Dit path verwijst naar de librairies van SDL2.
 
-## Stap 6:
+## Stap 7:
 Nu gaan we de compiler linken met de librairies.
 _Linker > Input > Additional Dependencies > Edit_
 
@@ -35,7 +41,7 @@ Voeg de vogende files toe:
 
 ![](https://i.gyazo.com/2595677a9517153413bad82104370d2a.png)
 
-## Stap 7:
+## Stap 8:
 
 Zet de subsystem op Console, nu is het mogelijk om debug messages over de console schrijven.
 
