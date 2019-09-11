@@ -12,7 +12,7 @@ Selecteer je c++ project in Solution Explorer en druk op **Alt+Enter**
 
 ## Stap 4: 
 
-![]https://i.imgur.com/mXb19x0.png)
+![](https://i.imgur.com/mXb19x0.png)
 
 Zorg ervoor dat de configuration op All configurations staat en dat het platform op Active(x64) staat.
 
